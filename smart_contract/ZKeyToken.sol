@@ -612,7 +612,7 @@ pragma solidity ^0.8.11;
 
 
 contract ZKeyToken is ERC20, Ownable {
-    constructor(address owner, uint256 tokenCount) ERC20("ZKEY", "ZKEY") {
+    constructor(address owner, uint256 tokenCount) ERC20("Zelensky", "ZKEY") {
         super._mint(owner, tokenCount * 10**18);
     }
 }

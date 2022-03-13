@@ -906,9 +906,9 @@ contract SaleContract is Ownable{
     using SafeMath for uint256;
 
     // price of one ZKEY token
-    uint256 ONE_TOKEN_PRICE                     = 1 * 10 ** 14;                  // 1 BNB
+    uint256 ONE_TOKEN_PRICE                     = 25 * 10 ** 14;                  // 0.025 BNB
     
-    address payable constant _ownerAddress      = payable(0xbAB8E9cA493E21d5A3f3e84877Ba514c405be0e1);
+    address payable constant _ownerAddress      = payable(0x71981e8f2E7b609F1c2F448AcE44012C11905465);
 
     // all events
     event Received(address, uint);
